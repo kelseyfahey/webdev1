@@ -35,11 +35,25 @@ body {
     font-size: 11pt;
     color: white;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .time {
-    margin: 7px;
-    align-self: start;
+    margin-left: 10px;
 }
 
 .signal {
