@@ -25,8 +25,36 @@ body {
     justify-content: space-around;
 }
 
+.topmenu {
+    width: 95%;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0.45);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 11pt;
+    color: white;
+    display: flex;
+}
+
+.time {
+    margin: 7px;
+    align-self: start;
+}
+
+.signal {
+
+}
+
+.wifi {
+
+}
+
+.battery {
+
+}
+
 .rows {
-    border: 1px solid black;
     width: 95%;
     height: 90px;
     display: flex;
@@ -49,6 +77,11 @@ body {
     height: 25px;
     border-radius: 50px;
     background: rgba(255, 0, 0, 0.8);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 11pt;
+    text-align: center;
+    transform: translate(5px, -5px);
+    color: white;
 }
 
 .rows.menu {
