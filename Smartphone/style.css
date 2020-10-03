@@ -1,3 +1,57 @@
 * {
     box-sizing: border-box;
 }
+body {  
+    background: linear-gradient(90deg, teal, seagreen);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+.phone {
+    background: rgb(0, 225, 255);
+    width: 350px;
+    height: 600px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rows {
+    border: 1px solid black;
+    width: 95%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.apps {
+    height: 75px;
+    width: 75px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.notif {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background: rgba(255, 0, 0, 0.8);
+}
+
+.rows.menu {
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 20px;
+}
