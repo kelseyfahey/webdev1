@@ -15,7 +15,7 @@ body {
 }
 
 .phone {
-    background: rgb(0, 225, 255);
+    background: linear-gradient(180deg, rgb(0, 204, 255), rgba(102, 255, 102, 0.705), rgb(157, 255, 0));
     width: 350px;
     height: 600px;
     border-radius: 30px;
@@ -41,13 +41,13 @@ body {
 }
 
 .left {
-    width: 50%;
+    width: 65%;
     display: flex;
     justify-content: start;
 }
 
 .right{
-    width: 50%;
+    width: 35%;
     display: flex;
     justify-content: space-evenly;
 }
@@ -57,15 +57,16 @@ body {
 }
 
 .signal {
-
 }
 
 .wifi {
-
 }
 
 .battery {
+}
 
+#symbols {
+    height: 15px;
 }
 
 .rows {
@@ -101,4 +102,12 @@ body {
 .rows.menu {
     background-color: rgba(0, 0, 0, 0.45);
     border-radius: 20px;
+}
+
+.one {
+    background: linear-gradient(-45deg, #dd5e89, #f7bb97);
+}
+
+.two {
+    background-color: ;
 }
