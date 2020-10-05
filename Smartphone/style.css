@@ -87,6 +87,10 @@ body {
     justify-content: flex-end;
 }
 
+.apps:hover {
+    transform: scale(1.15);
+}
+
 #otters {
     width: 100%;
     border-radius: 15px;
