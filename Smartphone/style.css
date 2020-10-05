@@ -15,7 +15,7 @@ body {
 }
 
 .phone {
-    background: linear-gradient(180deg, rgb(0, 204, 255), rgba(102, 255, 102, 0.705), rgb(157, 255, 0));
+    background: linear-gradient(180deg,#4ecdc4, rgba(102, 255, 102, 0.705), rgb(157, 255, 0));
     width: 350px;
     height: 600px;
     border-radius: 30px;
@@ -87,6 +87,12 @@ body {
     justify-content: flex-end;
 }
 
+#otters {
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+}
+
 .notif {
     width: 25px;
     height: 25px;
@@ -97,6 +103,7 @@ body {
     text-align: center;
     transform: translate(5px, -5px);
     color: white;
+    z-index: 1;
 }
 
 .rows.menu {
@@ -104,10 +111,18 @@ body {
     border-radius: 20px;
 }
 
-.one {
-    background: linear-gradient(-45deg, #dd5e89, #f7bb97);
+.fourteen {
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSE65g1Ovv5vbHK4-Gj0h7dwDMX3rbhdz2aiQ&usqp=CAU);
+    background-size: cover;
 }
 
-.two {
-    background-color: ;
+.sixteen {
+    background-image:url(https://resize.hswstatic.com/w_1024/gif/otters-playful-169788211.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.twentyone {
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTerF8GGDTDT44PipQFScC6lmtdmXDLee-DHA&usqp=CAU);
+    background-size: cover;
 }
