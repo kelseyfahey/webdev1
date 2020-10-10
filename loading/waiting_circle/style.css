@@ -17,10 +17,16 @@
 }
 
 .penguin {
+    z-index: 1;
     width: 400px;
     height: 500px;
     position: relative;
     animation-name: flippity;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
 
 .body {
@@ -46,8 +52,7 @@
     background-color: white;
 }
 
-.belly.left
- {
+.belly.left {
     transform: rotate(-20deg);
 	left: 30px;
 }
@@ -73,12 +78,22 @@
     transform: rotate(50deg);
     right: -75px;
     box-shadow: inset -5px -5px 0px rgba(0,0,0,0.3);
+    animation-name: flap;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
 
 .wing.left {
     transform: rotate(130deg);
     right: 330px;
     box-shadow: inset 5px 5px 0px rgba(0,0,0,0.3);
+    animation-name: flappy;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
 
 .foot {
@@ -101,19 +116,89 @@
     bottom: -15px;
 }
 
+.beak {
+    z-index: 3;
+    width: 70px;
+    height: 70px;
+    border-top-left-radius: 100px;
+    background-color: goldenrod;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 225px;
+    left: 165px;
+    box-shadow: inset -5px -5px 0px rgba(0,0,0,0.3);
+}
 
-.shadow {
-    z-index: 0;
-    bottom: -20px;
-    left: -10px;
-	position: absolute;
+.eye {
+    z-index: 3;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(39, 39, 48);
+    box-shadow: inset -5px -5px 0px rgba(0,0,0,0.3);
+    position: absolute;
+}
+
+.eye.left {
+    top: 150px;
+    right: 90px;
+}
+
+.eye.right {
+    top: 150px;
+    left: 90px;
+}
+
+.dot {
+    z-index: 4;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: inset -2px -2px 0px rgba(0,0,0,0.3);
+}
+
+
+/*.shadow {
+    z-index: 1;
 	width: 500px;
 	height: 60px;
 	background-color: rgba(0,0,0,0.5);
-	border-radius: 50%;
+    border-radius: 50%;
+}*/
 
 @keyframes flippity {
-    {
+10% { transform: translate(0px, 0px)rotateX(0deg) rotateY(0deg); 
+}
 
-    }
+50% {transform: translate(0px, -200px) rotateX(180deg) rotateY(360deg);
+}
+
+90%{
+    transform: translate(0px, 0px) rotateY(0deg) rotateX(0deg);
+}
+}
+
+@keyframes flap {
+    0% {
+		transform: rotate(40deg);
+	}
+	50% {
+		transform: rotate(50deg);
+	}
+	100% {
+		transform: rotate(40deg);
+	}
+}
+
+@keyframes flappy {
+    0% {
+		transform: rotate(140deg);
+	}
+	50% {
+		transform: rotate(130deg);
+	}
+	100% {
+		transform: rotate(140deg);
+	}
 }
