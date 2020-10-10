@@ -1,3 +1,119 @@
-h1 {
-    color: red;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    background-color: steelblue;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.penguin {
+    width: 400px;
+    height: 500px;
+    position: relative;
+    animation-name: flippity;
+}
+
+.body {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 50%; 
+    border-top-left-radius: 50%;   
+    border-bottom-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    background-color: rgb(39, 39, 48);
+    box-shadow: inset -5px -5px 0px rgba(0,0,0,0.3);
+    position: relative;
+}
+
+.belly {
+    position: absolute;
+    top: 18%;
+    z-index: 2;
+    width: 60%;
+    height: 80%;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.belly.left
+ {
+    transform: rotate(-20deg);
+	left: 30px;
+}
+
+.belly.right {
+    position: absolute;
+    right: 30px;
+    transform: rotate(20deg);
+    box-shadow: inset -5px -5px 0px rgba(0,0,0,0.3);
+}
+
+.wing {
+    background-color: rgb(39, 39, 48);
+    width: 150px;
+    height: 75px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: absolute;
+    top: 255px;
+}
+
+.wing.right {
+    transform: rotate(50deg);
+    right: -75px;
+    box-shadow: inset -5px -5px 0px rgba(0,0,0,0.3);
+}
+
+.wing.left {
+    transform: rotate(130deg);
+    right: 330px;
+    box-shadow: inset 5px 5px 0px rgba(0,0,0,0.3);
+}
+
+.foot {
+    z-index: 3;
+    width: 130px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: goldenrod;
+    position: absolute;
+    box-shadow: inset -5px -5px 0px rgba(0,0,0,0.3);
+}
+
+.foot.right {
+    left: 60px;
+    bottom: -15px;
+}
+
+.foot.left {
+    right: 60px;
+    bottom: -15px;
+}
+
+
+.shadow {
+    z-index: 0;
+    bottom: -20px;
+    left: -10px;
+	position: absolute;
+	width: 500px;
+	height: 60px;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 50%;
+
+@keyframes flippity {
+    {
+
+    }
 }
