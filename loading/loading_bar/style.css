@@ -37,42 +37,66 @@ p {
 
 #zero {
     top: 0%
+    animation-name: zero;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
 }
 
 #ten {
     top: 0%;
+    animation-name: ten;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
 }
 
 #twenty {
     top: 20%;
+    animation-name: twenty;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
 }
 
 #thirty {
     top: 20%;
+    animation-name: thirty;
+    animation-duration: 30s;
+    animation-fill-mode: forwards
 }
 
 #forty {
-    top: 40%
+    top: 40%;
+    animation-name: forty;
+    animation-duration: 30s;
+    animation-fill-mode: forwards
 }
 
 #fifty {
     top: 40%;
+    animation-name: twenty;
+    animation-duration: 30s;
+    animation-fill-mode: forwards
 }
 
 #sixty {
-    top: 60%
+    top: 60%;
 }
 
 #seventy {
-    top: 60%
+    top: 60%;
 }
 
 #eighty {
-    top: 80%
+    top: 80%;
 }
 
 #ninety {
     top: 80%;
+}
+
+#onehundred {
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, 20%)
 }
 
 .pengubox {
