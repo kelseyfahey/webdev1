@@ -4,11 +4,13 @@
     padding: 0;
 }
 
-
+h1 {
+    color: teal;
+}
 
 h1:before{
     content: 'Progress';
-    font-size: 100%;
+    font-size: 72pt;
     animation-name: head;
     animation-duration: 30s;
     animation-fill-mode: forwards;
@@ -16,64 +18,64 @@ h1:before{
 
 @keyframes head {
     0% {font-size:100%; opacity:1; content: "Begin!"}
-    9% {font-size: 90%;
+    9.99% {font-size: 90%;
         opacity: 0; content:"Begin!";
     }
     10% {
         font-size: 100%; opacity: 1; content: "Waking up...";
     }
-    19% {
+    19.99% {
         font-size: 90%; opacity: 0; content: "Waking up..."; 
     }
     20% {
         font-size: 100%; opacity: 1; content: "Gathering Penguin Friends...";
     }
-    29% {
+    29.99% {
         font-size: 90%; opacity: 0; content: "Gathering Penguin Friends...";
     }
     30% {
         font-size:100%; opacity:1; content:"Marching..."
     }
-    39% {
+    39.99% {
         font-size: 90%; opacity: 0; content: "Marching...";
     }
     40% {
         font-size:100%; opacity:1; content:"Locating Hill..."
     }
-    49% {
+    49.99% {
         font-size: 90%; opacity: 0; content: "Locating Hill...";
     }
     50% {
         font-size:100%; opacity:1; content:"Downhill Sledding..."
     }
-    59% {
-        font-size: 90%; opacity: 0.5; content: "Downhill Sledding...";
+    59.99% {
+        font-size: 90%; opacity: 0; content: "Downhill Sledding...";
     }
     60% {
         font-size:100%; opacity:1; content:"Plummeting Toward Cliff..."
     }
-    69% {
-        font-size: 90%; opacity: 0.5; content: "Plummeting Toward Cliff...";
+    69.99% {
+        font-size: 90%; opacity: 0; content: "Plummeting Toward Cliff...";
     }
     70% {
         font-size:100%; opacity:1; content:"Diving Into Ocean...";
     }
-    79% {
-        font-size: 90%; opacity: 0.5; content: "Diving Into Ocean...";
+    79.99% {
+        font-size: 90%; opacity: 0; content: "Diving Into Ocean...";
     }
     80% {
         font-size:100%; opacity:1; content:"Searching For Fish...";
     }
-    89% {
-        font-size: 90%; opacity: 0.5; content: "Searching For Fish...";
+    89.99% {
+        font-size: 90%; opacity: 0; content: "Searching For Fish...";
     }
     90% {
         font-size:100%; opacity:1; content:"Catching Dinner...";
     }
-    99% {
-        font-size: 90%; opacity: 0.5; content: "Catching Dinner...";
+    99.99% {
+        font-size: 90%; opacity: 0; content: "Catching Dinner...";
     }
     100% {
-        font-size:100%; opacity:1; content:"WE MADE IT";
+        font-size:100%; opacity:1; content:"WE MADE IT!";
     }
 }
