@@ -1,11 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.landing {
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 h1 {
     color: teal;
     animation-name: colorful;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-timing-function: ease;
     animation-direction: alternate;
     animation-iteration-count: infinite;
 }
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.link {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(0, 128, 128, 0.5);
+    border: 5px solid teal;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+a {
+    padding: 5px;
+    height: 100%;
+    font-size: 16pt;
+}
+
 
 @keyframes colorful {
     0% {
@@ -15,15 +52,15 @@ h1 {
         color: rgb(0, 128, 90);
     }
     40% {
-        color:rgb(109, 128, 0);
+        color:rgb(128, 105, 0);
     }
     60% {
-        color: rgb(128, 26, 0);
+        color: rgb(128, 0, 0);
     }
     80% {
-        color: rgb(128, 0, 79);
+        color: rgb(128, 0, 107);
     }
     100%{
-        color: rgb(60, 0, 128);
+        color: rgb(28, 0, 128);
     }
 }
