@@ -36,7 +36,7 @@ p {
 }
 
 #zero {
-    top: 0%
+    top: 0%;
     animation-name: zero;
     animation-duration: 30s;
     animation-fill-mode: forwards;
@@ -60,43 +60,58 @@ p {
     top: 20%;
     animation-name: thirty;
     animation-duration: 30s;
-    animation-fill-mode: forwards
+    animation-fill-mode: forwards;
 }
 
 #forty {
     top: 40%;
     animation-name: forty;
     animation-duration: 30s;
-    animation-fill-mode: forwards
+    animation-fill-mode: forwards;
 }
 
 #fifty {
     top: 40%;
-    animation-name: twenty;
+    animation-name: fifty;
     animation-duration: 30s;
-    animation-fill-mode: forwards
+    animation-fill-mode: forwards;
 }
 
 #sixty {
     top: 60%;
+    animation-name: sixty;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
 }
 
 #seventy {
     top: 60%;
+    animation-name: seventy;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
 }
 
 #eighty {
     top: 80%;
+    animation-name: eighty;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
 }
 
 #ninety {
     top: 80%;
+    animation-name: ninety;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
 }
 
 #onehundred {
     top: 60%;
     left: 50%;
-    transform: translate(-50%, 20%)
+    transform: translate(-50%, 20%);
+    animation-name: onehundred;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
 }
 
 .pengubox {
@@ -125,7 +140,7 @@ p {
     height: 300px;
     border-bottom-right-radius: 100%;
     background-color: #7ac1e4;
-    rotate: 45deg;
+    transform: rotateZ(45deg);
     position: absolute;
     bottom: -20px;
 }
@@ -149,7 +164,7 @@ p {
     position: absolute;
     top: 50px;
     left: 50px;
-    rotate: -45deg;
+    transform: rotateZ(-45deg);
 }
 
 h1 {
@@ -160,12 +175,12 @@ h1 {
 h1:before{
     content: '';
     font-size: 150%;
-    animation-name: head;
+    animation-name: progressing;
     animation-duration: 30s;
     animation-fill-mode: forwards;
 }
 
-@keyframes head {
+@keyframes progressing {
     0% {font-size:150%; opacity:1; content: "Begin!"}
     9.99% {font-size: 100%;
         opacity: 0; content:"Begin!";
@@ -226,5 +241,191 @@ h1:before{
     }
     100% {
         font-size:150%; opacity:1; content:"WE MADE IT!";
+    }
+}
+
+@keyframes zero {
+    0% {
+        opacity: 1;
+    }
+    9% {
+        opacity: 0.01;
+    }
+    10% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes ten {
+    0% {
+        opacity: 0;
+    }
+    1% {
+        opacity: 0.01;
+    }
+    10% {
+        opacity: 1;
+    }
+    20% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes twenty {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0.01;
+    }
+    20% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes thirty {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0.01;
+    }
+    30% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes forty {
+    0% {
+        opacity: 0;
+    }
+    30% { 
+        opacity: 0.01;
+    }
+    40% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fifty {
+    0% {
+        opacity: 0;
+    }
+    40% { 
+        opacity: 0.01;
+    }
+    50% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes sixty {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.01;
+    }
+    60% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes seventy {
+    0% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0.01;
+    }
+    70% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes eighty {
+    0% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 0.01;
+    }
+    80% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes ninety {
+    0% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0.01;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes onehundred {
+    0% {
+        opacity: 0;
+    }
+    90% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
     }
 }
