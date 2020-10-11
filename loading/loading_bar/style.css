@@ -14,7 +14,6 @@
 .box {
     width: 20%;
     height: 20%;
-    border: 2px solid blue;
     position: absolute;
     display: table;
 }
@@ -39,6 +38,7 @@ p {
     top: 0%;
     animation-name: zero;
     animation-duration: 30s;
+    animation-timing-function: linear;
     animation-fill-mode: forwards;
 }
 
@@ -46,6 +46,7 @@ p {
     top: 0%;
     animation-name: ten;
     animation-duration: 30s;
+    animation-timing-function: linear;
     animation-fill-mode: forwards;
 }
 
@@ -53,6 +54,7 @@ p {
     top: 20%;
     animation-name: twenty;
     animation-duration: 30s;
+    animation-timing-function: linear;
     animation-fill-mode: forwards;
 }
 
@@ -60,6 +62,7 @@ p {
     top: 20%;
     animation-name: thirty;
     animation-duration: 30s;
+    animation-timing-function: linear;
     animation-fill-mode: forwards;
 }
 
@@ -67,6 +70,7 @@ p {
     top: 40%;
     animation-name: forty;
     animation-duration: 30s;
+    animation-timing-function: linear;
     animation-fill-mode: forwards;
 }
 
@@ -74,6 +78,7 @@ p {
     top: 40%;
     animation-name: fifty;
     animation-duration: 30s;
+    animation-timing-function: linear;
     animation-fill-mode: forwards;
 }
 
@@ -81,6 +86,7 @@ p {
     top: 60%;
     animation-name: sixty;
     animation-duration: 30s;
+    animation-timing-function: linear;
     animation-fill-mode: forwards;
 }
 
@@ -88,6 +94,7 @@ p {
     top: 60%;
     animation-name: seventy;
     animation-duration: 30s;
+    animation-timing-function: linear;
     animation-fill-mode: forwards;
 }
 
@@ -95,6 +102,7 @@ p {
     top: 80%;
     animation-name: eighty;
     animation-duration: 30s;
+    animation-timing-function: linear;
     animation-fill-mode: forwards;
 }
 
@@ -102,6 +110,7 @@ p {
     top: 80%;
     animation-name: ninety;
     animation-duration: 30s;
+    animation-timing-function: linear;
     animation-fill-mode: forwards;
 }
 
@@ -111,6 +120,7 @@ p {
     transform: translate(-50%, 20%);
     animation-name: onehundred;
     animation-duration: 30s;
+    animation-timing-function: linear;
     animation-fill-mode: forwards;
 }
 
@@ -127,7 +137,6 @@ p {
 }
 
 .mtnbox {
-    border: 2px solid black;
     width: 400px;
     height: 400px;
     position: absolute;
@@ -139,10 +148,19 @@ p {
     width: 300px;
     height: 300px;
     border-bottom-right-radius: 100%;
+    box-shadow: inset -5px 10px rgb(0, 0, 0, 0.3);
     background-color: #7ac1e4;
     transform: rotateZ(45deg);
     position: absolute;
     bottom: -20px;
+}
+
+.snow {
+    width: 90px;
+    height: 80px;
+    background-color: white;
+    border-bottom-right-radius: 100%;
+    box-shadow: inset -5px 5px rgb(0, 0, 0, 0.3);
 }
 
 .mtn.front {
@@ -177,6 +195,7 @@ h1:before{
     font-size: 150%;
     animation-name: progressing;
     animation-duration: 30s;
+    animation-timing-function: linear;
     animation-fill-mode: forwards;
 }
 
