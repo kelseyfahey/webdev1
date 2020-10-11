@@ -11,6 +11,115 @@
     position: relative;
 }
 
+.box {
+    width: 20%;
+    height: 20%;
+    border: 2px solid blue;
+    position: absolute;
+}
+
+.left {
+    left: 10px;
+}
+
+.right { 
+    right: 10px;
+}
+
+#zero {
+    top: 0%
+}
+
+#ten {
+
+}
+
+#twenty {
+    top: 20%;
+}
+
+#thirty {
+    top: 20%;
+}
+
+#forty {
+    top: 40%
+}
+
+#fifty {
+    top: 40%;
+}
+
+#sixty {
+    top: 60%
+}
+
+#seventy {
+    top: 60%
+}
+
+#eighty {
+    top: 80%
+}
+
+#ninety {
+    top: 80%;
+}
+
+.pengubox {
+    width: 100vw;
+    height: 100vh;
+    border: 10px solid black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.penguin {
+
+}
+
+.mtnbox {
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mtn {
+    width: 300px;
+    height: 300px;
+    border-bottom-right-radius: 100%;
+    background-color: #7ac1e4;
+    rotate: 45deg;
+    position: absolute;
+    bottom: -20px;
+}
+
+.mtn.front {
+    left: 75px;
+}
+
+.mtn.behind {
+    width: 200px;
+    height: 200px;
+    border-bottom-right-radius: 100%;
+    background-color: #7ac1e4;
+    opacity: 0.8;
+    bottom: 90px;
+}
+
+.progtext {
+    width:150%;
+    height: 100%;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    rotate: -45deg;
+}
+
 h1 {
     font-family: monospace;
     color: teal;
