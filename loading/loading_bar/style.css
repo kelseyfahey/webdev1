@@ -16,6 +16,15 @@
     height: 20%;
     border: 2px solid blue;
     position: absolute;
+    display: table;
+}
+
+p {
+    font-family: monospace;
+    font-size: 24pt;
+    text-align: center;
+    vertical-align: bottom;
+    display: table-cell;
 }
 
 .left {
@@ -31,7 +40,7 @@
 }
 
 #ten {
-
+    top: 0%;
 }
 
 #twenty {
@@ -69,7 +78,6 @@
 .pengubox {
     width: 100vw;
     height: 100vh;
-    border: 10px solid black;
     position: absolute;
     top: 0;
     left: 0;
