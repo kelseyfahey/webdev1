@@ -1,23 +1,35 @@
 * { padding: 0; margin: 0; box-sizing: border-box; }
 
+h1 {
+    margin: 10px;
+    font-family: cursive;
+    color: teal;
+}
 .container {
-   display: flex;
-   flex-wrap: wrap;
-   align-items: center;
-   justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.rows {
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .links {
+    margin: 10px;
     width: 100px;
     height: 100px;
-    border: 1px solid teal;
-    background-image: image(https://picsum.photos/100);
 }
-
 a {
-    margin: 20px;
+ font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
-    max-width: 100px;
+    width: 100%;
 }
