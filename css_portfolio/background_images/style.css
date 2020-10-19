@@ -24,7 +24,7 @@
     width: 40%;
     height: 90%;
     border-radius: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     color: white;
 }
@@ -34,11 +34,24 @@
     height: 80%;
     background-image: url(http://images6.fanpop.com/image/photos/41800000/She-Ra-and-the-Princesses-of-Power-universe-backgrounds-she-ra-and-the-princesses-of-power-netflix-41800577-1280-720.jpg);
     background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+h1 {
+    background: rgb(0, 0, 0, 0.8);
+    border-radius: 15px;
+    padding: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .one {
     background-image: url(https://40.media.tumblr.com/3c937e69b4ded42d05a70760e77617a4/tumblr_nnhi3q5bq61sxagvto10_1280.jpg);
     background-size: contain;
+    position: relative;
 }
 
 .two {
@@ -52,8 +65,15 @@
 p {
     width: 90%;
     background-color: rgb(0, 0, 0, 0.8);
+    size: 10px;
     position: absolute;
     bottom: 5%;
     left: 5%;
     right: 5%;
+}
+
+h2 {
+    background: rgb(0, 0, 0, 0.8);
+    border-radius: 15px;
+    padding: 5px;
 }
