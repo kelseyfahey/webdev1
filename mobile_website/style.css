@@ -8,5 +8,19 @@
     position: absolute;
     top: 0;
     left: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.hero {
+    background-color: rgb(0, 0, 0, 0.5);
     width: 100vw;
+    height: 50vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.about {
+    
 }
