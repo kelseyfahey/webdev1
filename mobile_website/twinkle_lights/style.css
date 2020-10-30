@@ -1,0 +1,121 @@
+header {
+    font-family: Arial;
+    background:     url(https://us.123rf.com/450wm/chuckchee/chuckchee1604/chuckchee160400050/54448855-fondo-abstracto-con-luces-brillantes.jpg?ver=6);
+    background-size:cover;
+    text-align:center;
+    margin: 5px;
+    border: 5px solid black;
+    width: 90vw;
+  }
+  
+  h1 {
+    color: none;
+    font-family: monospace;
+    background: #FFE895;
+    border: 2.5px solid black;
+    font-size:24pt;
+    opacity: 0.75;
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  em {
+    color:teal;
+  }
+  
+  h3 {
+    background: black;
+    color: #FFE895;
+    opacity: 0.6;
+    margin:20px;
+    padding:10px;
+  }
+  
+  .content {
+    font-family: Arial;
+    margin: 5px;
+    background: black;
+    border: 5px solid teal;
+    height: 30vh;
+    width: 90vw;
+    overflow: scroll;
+  } 
+  
+  h4 {
+    font-family: monospace;
+    font-size: 14pt;
+    background: black;
+    width:87vw;
+    color: #FFE895;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 7.75px 5px 7.75px;
+    position: absolute;
+  }
+  
+  #begin {
+    padding: 45px 0px 5px 5px;
+  }
+  
+  p {
+    color:teal;
+    margin: 5px;
+    padding: 5px 5px 5px 5px;
+    overflow: scroll;
+  }
+  
+  #list {
+    color:#FFF895;
+    padding: 0px 0px 20px 0px;
+    ;
+  }
+  
+  a { 
+    color:#FFE895;
+    background:teal;
+    border: 2px solid #FFE895;
+    margin-left: 10px;
+    margin-bottom:20px;
+    padding: 5px 10px 5px 10px;
+  }
+  
+  img {
+    display:block;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding:2px;
+  }
+  
+  h5 {
+    font-family: monospace;
+    font-size: 14pt;
+    background: teal;
+    width:87vw;
+    color: #FFE895;
+    margin: 0px 0px 0px 5px;
+    padding: 10px 0px 5px 5px;
+    position: absolute;
+  }
+  
+  .examples {
+    width:90vw;
+    height: 50vh;
+    margin:5px;
+    border:5px solid black;
+    background:teal;
+    overflow:scroll;
+  }
+  
+  #photos {
+    margin:35px 12px 12px 12px;
+  }
+  
+  .kelsey {
+    width:95%;
+    font-family: sans-serif;
+    font-size: 10pt;
+    margin: 5pt;
+    text-align:center;
+  }

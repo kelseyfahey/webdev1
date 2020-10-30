@@ -1,0 +1,52 @@
+* { padding: 0; margin: 0; box-sizing: border-box; }
+
+.container {
+    width: 100vw;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(https://www.pngarts.com/files/4/Anchor-Transparent-Image.png), linear-gradient(45deg, teal, seagreen);
+    background-size: 75vh, 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.header {
+    width: 75%;
+    height: 25%;
+    background-color: rgb(255, 255, 255, 0.8);
+    text-align: center;
+    color: black;
+}
+
+.textblock {
+    background-color: rgb(255, 255, 255, 0.8);
+    width: 75%;
+    height: 33%;
+    text-align: center;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+p {
+    font-size: 16pt;
+    margin: 10px;
+}
+
+.footer {
+    width: 75%;
+    height: 15%;
+    background-color: rgb(255, 255, 255, 0.8);
+    text-align: center;
+}
+
+a {
+   color: black;
+   font-weight: bold;
+}

@@ -1,0 +1,228 @@
+body {
+    background: url(https://i.pinimg.com/originals/c4/92/ba/c492baf54af3024902ae3cc570f2aaf3.jpg);
+    background-repeat: auto;
+    background-size: 100vw;
+}
+.rainbow {
+    font-family: Comic Sans MS;
+    color:white;
+    width: 95%;
+    height: 25vh;
+    margin: 5px auto;
+    background: linear-gradient(90deg, #FF0000, #FF7700, #FFDD00, #00FF00, #000FFF, #5500FF, #F600FF, #FF0000);
+    border: 2.5px solid black;
+    border-radius: 10px;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    position:absolute;
+    left: 20px;
+    bottom: 10px;
+}
+
+#queernicorn {
+    position:absolute;
+    bottom: 10px;
+    right: 10px;
+    transform: scaleX(-1);
+}
+
+.opener {
+    width: 95vw;
+    height: 40vh;
+    margin: 5px auto 0 auto;
+    background:rgba(0, 0, 0, 0);    
+    position: relative;
+}
+#welcome {
+    position:absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.overview {
+    font-family: Comic Sans MS;
+    text-align: center;
+    position: absolute;
+    width: 95vw;
+    height:20vh;
+    background:rgba(0, 0, 0, 0.8);
+    border: 2.5px solid black;
+    border-radius: 10px;
+    top: 150px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+h6 {
+    color: white;
+    font-size: 16pt;
+    text-align: center;
+    margin: 5px;
+}
+
+h7 {
+    color: cyan;
+    font-size: 12pt;
+}
+
+.cartoons {
+    font-family: Comic Sans MS;
+    width: 95vw;
+    height: 60vh;
+    margin: 5px auto 0 auto;
+    background:rgba(0, 0, 0, 0.8);
+    border: 2.5px solid black;
+    border-radius: 10px;
+    position: relative;
+}
+
+#gaystars {
+    width: 95%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h3 {
+    color: #ff00ff;
+    font-size: 16pt;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h4 {
+    color: cyan;
+    font-size: 12pt;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#rainbowline {
+    width:95%;
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box {
+    margin: 5px;
+    width: 45vw;
+    height: 17vh;
+    border: 2px solid white;
+    border-radius: 10px;
+    position: absolute;
+    overflow-x: hidden;
+}
+
+.upper{
+    top: 100px;
+}
+
+.lower {
+    bottom: 5px;
+}
+
+.left {
+    left: 5px;
+}
+
+.right {
+    right: 5px;
+}
+
+.left.upper {
+    background: linear-gradient(90deg, #FF0000, #FF7700, #FFDD00, #00FF00);
+    opacity: 0.8;
+}
+
+.right.upper {
+    background: linear-gradient(90deg, #000FFF, #5500FF, #F600FF, #FF0000);
+    opacity: 0.8;
+}
+
+.left.lower {
+    background: linear-gradient(90deg, #FF0000, #FF7700, #FFDD00, #00FF00);
+    opacity: 0.8;
+}
+
+.right.lower {
+    background: linear-gradient(90deg, #000FFF, #5500FF, #F600FF, #FF0000);
+    opacity: 0.8;
+}
+
+p {
+    text-align: center;
+    width: 95%;
+    border-radius: 10px;
+    
+}
+
+.divides {
+    width: 95vw;
+    height: 25vh;
+    margin: 5px auto 0 auto;
+    background:rgba(0, 0, 0, 0);    
+    position: relative;
+}
+
+.showgif {
+    height: 95%;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lgif {
+    position:absolute;
+    top: 10px;
+    left: 10px;
+    height: 90%;
+}
+
+.rgif {
+    position:absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.ugif {
+    position:absolute;
+    top: 10px;
+    right: 100px;
+}
+
+#flip {
+    transform: scale(1);
+}
+
+#blockgifl {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(-0%, -50%);
+}
+
+#blockgifr {
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(-0%, -50%);
+}

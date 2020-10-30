@@ -1,0 +1,602 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #b4ddf0;
+    position: relative;
+}
+
+.box {
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    display: table;
+}
+
+p {
+    font-family: monospace;
+    font-size: 24pt;
+    text-align: center;
+    vertical-align: bottom;
+    display: table-cell;
+}
+
+.left {
+    left: 10px;
+}
+
+.right { 
+    right: 10px;
+}
+
+#zero {
+    top: 0%;
+    animation-name: zero;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+#ten {
+    top: 0%;
+    animation-name: ten;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+#twenty {
+    top: 20%;
+    animation-name: twenty;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+#thirty {
+    top: 20%;
+    animation-name: thirty;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+#forty {
+    top: 40%;
+    animation-name: forty;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+#fifty {
+    top: 40%;
+    animation-name: fifty;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+#sixty {
+    top: 60%;
+    animation-name: sixty;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+#seventy {
+    top: 60%;
+    animation-name: seventy;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+#eighty {
+    top: 80%;
+    animation-name: eighty;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+#ninety {
+    top: 80%;
+    animation-name: ninety;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+#onehundred {
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    animation-name: onehundred;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+.pengubox {
+    width: 100vw;
+    height: 100vh;
+   position: relative;
+}
+
+.penguin {
+    z-index: 2;
+    width: 100px;
+    height: 125px;
+    position: absolute;
+    animation-name: rolypoly;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+.body {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 50%; 
+    border-top-left-radius: 50%;   
+    border-bottom-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    background-color: rgb(39, 39, 48);
+    box-shadow: inset -5px -5px 0px rgba(0,0,0,0.3);
+    position: relative;
+}
+
+.belly {
+    position: absolute;
+    top: 18%;
+    z-index: 2;
+    width: 60%;
+    height: 70%;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.belly.left {
+    transform: rotate(-20deg);
+	left: 7.5px;
+}
+
+.belly.right {
+    position: absolute;
+    right: 7.5px;
+    transform: rotate(20deg);
+    box-shadow: inset -5px -5px 0px rgba(0,0,0,0.3);
+}
+
+.wing {
+    background-color: rgb(39, 39, 48);
+    width: 37.5px;
+    height: 18.75px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: absolute;
+    top: 63.75px;
+}
+
+.wing.right {
+    transform: rotate(50deg);
+    right: -18.75px;
+    box-shadow: inset -5px -5px 0px rgba(0,0,0,0.3);
+}
+
+.wing.left {
+    transform: rotate(130deg);
+    left: -20.5px;
+    box-shadow: inset 5px 5px 0px rgba(0,0,0,0.3);
+}
+
+.foot {
+    z-index: 3;
+    width: 32.5px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: goldenrod;
+    position: absolute;
+    box-shadow: inset -5px -5px 0px rgba(0,0,0,0.3);
+}
+
+.foot.right {
+    left: 15px;
+    bottom: -3.75px;
+}
+
+.foot.left {
+    left: 55px;
+    bottom: -3.75px;
+}
+
+.eye {
+    z-index: 3;
+    width: 12.5px;
+    height: 12.5px;
+    border-radius: 50%;
+    background-color: rgb(39, 39, 48);
+    box-shadow: inset -5px -5px 0px rgba(0,0,0,0.3);
+    position: absolute;
+}
+
+.beak {
+    z-index: 3;
+    width: 17.5px;
+    height: 17.5px;
+    border-top-left-radius: 100px;
+    background-color: goldenrod;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 56.25px;
+    left: 41.25px;
+    box-shadow: inset -1.5px -1.5px 0px rgba(0,0,0,0.3);
+}
+
+.eye.left {
+    top: 37.5px;
+    left: 63.5px;
+}
+
+.eye.right {
+    top: 37.5px;
+    left: 22.5px;
+}
+
+
+.mtnbox {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mtn {
+    width: 300px;
+    height: 300px;
+    border-bottom-right-radius: 100%;
+    box-shadow: inset -5px 10px rgb(0, 0, 0, 0.3);
+    background-color: #7ac1e4;
+    transform: rotateZ(45deg);
+    position: absolute;
+    bottom: -20px;
+}
+
+.snow {
+    width: 90px;
+    height: 80px;
+    background-color: white;
+    border-bottom-right-radius: 100%;
+    box-shadow: inset -5px 5px rgb(0, 0, 0, 0.3);
+}
+
+.mtn.front {
+    left: 75px;
+}
+
+.mtn.behind {
+    width: 200px;
+    height: 200px;
+    border-bottom-right-radius: 100%;
+    background-color: #7ac1e4;
+    opacity: 0.8;
+    bottom: 90px;
+}
+
+.progtext {
+    width:150%;
+    height: 100%;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    transform: rotateZ(-45deg);
+}
+
+h1 {
+    font-family: monospace;
+    color: teal;
+}
+
+h1:before{
+    content: '';
+    font-size: 150%;
+    animation-name: progressing;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes progressing {
+    0% {font-size:150%; opacity:1; content: "Begin!"}
+    9.99% {font-size: 100%;
+        opacity: 0; content:"Begin!";
+    }
+    10% {
+        font-size: 150%; opacity: 1; content: "Waking up...";
+    }
+    19.99% {
+        font-size: 100%; opacity: 0; content: "Waking up..."; 
+    }
+    20% {
+        font-size: 150%; opacity: 1; content: "Gathering Penguin Friends...";
+    }
+    29.99% {
+        font-size: 100%; opacity: 0; content: "Gathering Penguin Friends...";
+    }
+    30% {
+        font-size:150%; opacity:1; content:"Marching..."
+    }
+    39.99% {
+        font-size: 100%; opacity: 0; content: "Marching...";
+    }
+    40% {
+        font-size:150%; opacity:1; content:"Locating Hill..."
+    }
+    49.99% {
+        font-size: 100%; opacity: 0; content: "Locating Hill...";
+    }
+    50% {
+        font-size:150%; opacity:1; content:"Downhill Sledding..."
+    }
+    59.99% {
+        font-size: 100%; opacity: 0; content: "Downhill Sledding...";
+    }
+    60% {
+        font-size:150%; opacity:1; content:"Plummeting Toward Cliff..."
+    }
+    69.99% {
+        font-size: 100%; opacity: 0; content: "Plummeting Toward Cliff...";
+    }
+    70% {
+        font-size:150%; opacity:1; content:"Diving Into Ocean...";
+    }
+    79.99% {
+        font-size: 100%; opacity: 0; content: "Diving Into Ocean...";
+    }
+    80% {
+        font-size:150%; opacity:1; content:"Searching For Fish...";
+    }
+    89.99% {
+        font-size: 100%; opacity: 0; content: "Searching For Fish...";
+    }
+    90% {
+        font-size:150%; opacity:1; content:"Catching Dinner...";
+    }
+    99.99% {
+        font-size: 100%; opacity: 0; content: "Catching Dinner...";
+    }
+    100% {
+        font-size:150%; opacity:1; content:"WE MADE IT!";
+    }
+}
+
+@keyframes zero {
+    0% {
+        opacity: 1;
+    }
+    9% {
+        opacity: 0.01;
+    }
+    10% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes ten {
+    0% {
+        opacity: 0;
+    }
+    1% {
+        opacity: 0.01;
+    }
+    10% {
+        opacity: 1;
+    }
+    20% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes twenty {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0.01;
+    }
+    20% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes thirty {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0.01;
+    }
+    30% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes forty {
+    0% {
+        opacity: 0;
+    }
+    30% { 
+        opacity: 0.01;
+    }
+    40% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fifty {
+    0% {
+        opacity: 0;
+    }
+    40% { 
+        opacity: 0.01;
+    }
+    50% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes sixty {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.01;
+    }
+    60% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes seventy {
+    0% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0.01;
+    }
+    70% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes eighty {
+    0% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 0.01;
+    }
+    80% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes ninety {
+    0% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0.01;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes onehundred {
+    0% {
+        opacity: 0;
+    }
+    90% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes rolypoly {
+    0% {
+        transform: translate(0, 0) rotateZ(0deg);
+    }
+    10% {
+        transform: translate(90vw, 0) rotateZ(360deg);
+    }
+    20% {
+        transform: translate(0vw, 20vh) rotateZ(-360deg);
+    }
+    30%{
+        transform: translate(90vw, 20vh) rotateZ(360deg);
+    }
+    40% {
+        transform: translate(0vw, 40vh) rotateZ(-360deg);
+    }
+    50%{
+        transform: translate(90vw, 40vh) rotateZ(360deg);
+    }
+    60% {
+        transform: translate(0vw, 60vh) rotateZ(-360deg);
+    }
+    70%{
+        transform: translate(90vw, 60vh) rotateZ(360deg);
+    }
+    80% {
+        transform: translate(0vw, 80vh) rotateZ(-360deg);
+    }
+    90%{
+        transform: translate(90vw, 80vh) rotateZ(360deg);
+    }
+    100% {
+        transform: translate(40vw, 60vh) rotateZ(-360deg);
+    }
+}

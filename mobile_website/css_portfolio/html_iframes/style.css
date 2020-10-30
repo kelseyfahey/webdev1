@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url(https://thespinoff.co.nz/wp-content/uploads/2018/08/neopets-hero-2.png);
+    background-size: contain;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.top {
+    width: 650px;
+    height:10%;
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.main {
+    width: 650px;
+    height: 80%;
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}

@@ -1,0 +1,58 @@
+* { padding: 0; margin: 0; box-sizing: border-box; }
+
+
+h1 {
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(42, 139, 99);
+}
+.container {
+    background-image: linear-gradient(-45deg, rgb(42, 139, 99), rgb(255, 255, 255));
+    width: 100vw;
+    height: 100vh;
+    min-width: 674px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.rows {
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    box-shadow: 10px 10px 8px teal;
+    
+}
+
+.folio-text {
+    background-color: rgb(42, 139, 99, 0);
+    opacity: 0;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 33%;
+}
+
+.links:hover .folio-text {
+    background-color: rgb(42, 139, 99, 0.8);
+    opacity: 1;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
