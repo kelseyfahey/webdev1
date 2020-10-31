@@ -105,6 +105,10 @@ img {
     justify-content: center;
 }
 
+a {
+    text-align: center;
+}
+
 a:link {
     color: teal;
 }
