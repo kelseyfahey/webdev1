@@ -58,11 +58,6 @@ h1 {
     justify-content: flex-start;
 }
 
-.about {
-    font-family: 'Special Elite', cursive;
-    text-decoration: none;
-}
-
 h2 {
     font-family: 'Special Elite', cursive;
     font-size: 6vw;
@@ -70,48 +65,46 @@ h2 {
     text-shadow: 2px 2px 4px black;
 }
 
-.links {
+.home {
+    font-family: 'Special Elite', cursive;
+    text-decoration: none;
+}
+
+.about {
     background-color: rgb(77, 107, 49, 0.6);
     width: 100vw;
     height: 70%;
     z-index: 1;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     overflow: scroll;
 }
 
-.page {
-    box-shadow: 5px 10px 12px rgb(0, 0, 0, 0.8);
-    margin: 10px;
-    width: 250px;
-    height: 250px;
-    position: relative;
-}
-
-img {
-    width: 100%;
-    height: 100%;
-}
-
-.folio-text {
-    background-color: rgb(0, 0, 0, 0.8);
-    opacity: 0;
-    font-family: 'Special Elite', cursive;
-    text-decoration: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+.heading {
+    height: 25%;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+}
+
+.content {
+    height: 75%;
+    width: 95%;
+}
+
+p {
+    font-family: 'Special Elite', cursive;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    text-align: center;
 }
 
 a {
     text-align: center;
+    text-shadow: 2px 2px 4px black;
 }
 
 a:link {
@@ -124,12 +117,4 @@ a:active {
 
 a:visited {
     color: wheat;
-}
-
-.page:hover {
-    transform: scale(.95);
-}
-
-.page:hover .folio-text {
-    opacity: 1;
 }
