@@ -1,4 +1,4 @@
-var modal = document.getElementById("superModal");
+/*var modal = document.getElementById("superModal");
 
 var btn = document.getElementById("clickMe");
 
@@ -16,4 +16,13 @@ window.onclick = function(event) {
     if(event.target == modal) {
         modal.style.display = "none";
     }
-}
+}*/
+
+
+$("#clickMe").click(function(){
+    $(".modal").show();
+})
+
+$(".close").click(function(){
+    $(".modal").hide();
+})
