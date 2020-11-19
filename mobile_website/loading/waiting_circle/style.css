@@ -186,6 +186,13 @@
     animation-iteration-count: infinite;
 }
 
+a {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    font-family: monospace;
+}
+
 @keyframes flippity {
 10% { transform: translate(0px, 0px)rotateX(0deg) rotateY(0deg); 
 }

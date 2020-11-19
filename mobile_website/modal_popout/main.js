@@ -26,3 +26,7 @@ $("#clickMe").click(function(){
 $(".close").click(function(){
     $(".modal").hide();
 })
+
+$(".modal-background").click(function(){
+    $(".modal").hide();
+})
